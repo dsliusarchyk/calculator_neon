@@ -1,0 +1,17 @@
+{
+  "name": "calculator_neon",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+  "start": "electron .",
+  "build:mac": "electron-packager . NeonCalculator --platform=darwin --arch=x64 --out=build --icon=icon.icns --overwrite"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "electron": "^34.1.0",
+    "electron-packager": "^17.1.2"
+  }
+}
